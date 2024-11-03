@@ -1,0 +1,63 @@
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: burlywood;
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+h1,p{
+  text-align: center;
+}
+form{
+  padding: 2em;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: #222;
+}
+
+.inline{
+  vertical-align: center;
+  margin: 0 0.5em 0 0;
+}
+
+label{
+  display: block;
+  padding: 3px 0;
+}
+
+fieldset{
+  border: none;
+  border-bottom: 4px solid black;
+  margin: 10px 0;
+
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+.inline{
+  width: unset;
+}
+
+input{
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 1.8em;
+    font-size: 1.1rem;
+    background-color: burlywood;
+    min-width: 100px;
+    border-color: burlywood;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please Respond Sincerly</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" required placeholder="Full Name"></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="someone@example.com" required></label>
+        <label id="number-label" for="number">Experience (years) <input id="number" type="number" min=0 max=50 placeholder="0"></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">
+          <label>Where do you look for job?</label>
+          <select id="dropdown" name="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Job Cantre</option>
+            <option value="2">Indeed</option>
+            <option value="3">Total Jobs</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <br>
+        <label>Tell Us Your Industry Preference:</label>
+        <br>
+        <label for="warehouse"><input id="warehouse" name="job-type" type="radio" class="inline" value="w">Warehouse</label>
+        <label for="management"><input id="management" name="job-type" type="radio" class="inline" value="m">Management</label>
+        <label for="engineering"><input id="engineering" name="job-type" type="radio" class="inline" value="e">Engineering</label>
+      </fieldset>
+      <fieldset>
+        <label>Select your city</label>
+        <br>
+        <label for="wakefield"><input id="wakefield" type="checkbox" value="WF" class="inline">Wakefield</label>
+        <label for="leeds"><input id="leeds" type="checkbox" value="LS" class="inline">Leeds</label>
+        <label for="hudds"><input id="hudds" type="checkbox" value="HD" class="inline">Huddersfield</label>
+        <label for="sheffield"><input id="sheffield" type="checkbox" value="S" class="inline">Sheffield</label>
+        <br>
+        <textarea rows=10 cols=50 placeholder="Tell us about you!"></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+

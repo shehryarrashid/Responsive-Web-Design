@@ -1,0 +1,175 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+  color: #f0f0f0;
+  background-color: #222;
+}
+  
+  /* Header styles */
+  #header {
+    background-color: white;
+    display: flex;
+  }
+  
+  #header-img {
+    height:100%;
+    width: 20%;
+  }
+
+  #nav-bar {
+    width: 20%;
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: beige !important;
+  }
+
+  h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .product{
+    border-style: solid;
+    min-width: 350px;
+    max-width: 350px;
+    padding: 2%;
+  }
+
+  .product-image{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .product p,h4{
+    margin: 20px 0;
+  }
+
+  .icon{
+    color: gold;
+  }
+
+  
+.s2-products{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.point{
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  margin: 5%;
+  align-items: center;
+}
+
+.point p{
+  margin-left: 5vh;
+}
+
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
+
+.separator{
+  width: 80%;
+  margin: 20px auto;
+  height: 0;
+  border: 1px solid white;
+}
+
+#section3 p{
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 5px;
+  font-size: 18px;
+  margin-bottom: 5%;
+  text-indent: 5%;
+  text-justify: inter-word;
+}
+
+
+  
+  /* Video styles */
+  #video {
+    margin-top: 20px;
+  }
+  
+  /* Form styles */
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #email {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  form{
+    margin: 5% 0;
+  }
+  
+  #video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+  }
+  #submit {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+  }
+
+  footer i{
+    margin-right: 5%;
+  }
